@@ -1,0 +1,23 @@
+global_vars:
+  - name: python
+    type: echo
+    params:
+      echo: "[python]"
+
+  - name: main
+    type: echo
+    params:
+      echo: "[main]"
+
+matches:
+  - trigger: :esptools
+    replace: "{{result}}"
+    force_mode: clipboard
+    vars:
+      - name: result
+        type: script
+        params:
+          args:
+              - "{{python}}"
+              - "{{main}}"
+              - "greet"
