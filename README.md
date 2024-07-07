@@ -6,8 +6,8 @@ EspTools is an extenive toolset for [Espanso](https://espanso.org/)
 
 ## Prerequisites
 
-* [Espanso](https://espanso.org/): Version 2.2.1 (latest as of 07.07.2024)
-* [Python](https://www.python.org/): Version 3.12 (latest as of 07.07.2024)
+* [Espanso](https://espanso.org/): Version 2.2.1
+* [Python](https://www.python.org/): Version 3.12
 
 ## Installation
 
