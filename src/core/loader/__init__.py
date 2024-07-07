@@ -1,0 +1,1 @@
+from core.loader.load import loadattr
