@@ -25,6 +25,16 @@ Restart Espanso or reload its configs to ensure that the new match is loaded
 
 **Check the installation:** type `:esptools` in any text field. If everything is set up correctly, it should be replaced with `Hello, EspTools!`
 
+## Usage
+
+Type `=` followed by an expression and a `;` at the end
+
+The expression will be evaluated and replaced with the result
+
+For example: `=sqrt(37);` -> `6.082762530298219`
+
+**Note:** Espanso matches [patterns](https://espanso.org/docs/matches/regex-triggers/) of up to 30 characters long — make sure your expressions stay within this length
+
 ## License
 
 EspTools is a free, open-source software distributed under the [MIT License](LICENSE.txt)
