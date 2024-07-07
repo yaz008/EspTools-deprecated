@@ -1,3 +1,5 @@
+![logo](assets/esptools-logo.png)
+
 # EspTools
 
 ## License
