@@ -1,1 +1,1 @@
-from core.path.path import Path
+from core.path.path import Path, Config
