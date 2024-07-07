@@ -21,3 +21,15 @@ matches:
               - "{{python}}"
               - "{{main}}"
               - "greet"
+
+  - regex: "=(?P<expr>.*);"
+    replace: "{{result}}"
+    force_mode: clipboard
+    vars:
+      - name: result
+        type: script
+        params:
+          args:
+              - "{{python}}"
+              - "{{main}}"
+              - "evaluate"
