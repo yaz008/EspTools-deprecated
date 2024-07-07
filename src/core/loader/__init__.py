@@ -1,1 +1,1 @@
-from core.loader.load import loadattr
+from core.loader.load import loadattr, load_tool
