@@ -4,6 +4,8 @@
 
 EspTools is an extenive toolset for [Espanso](https://espanso.org/)
 
+**Version:** `0.1.0-alpha`
+
 ## Prerequisites
 
 * [Espanso](https://espanso.org/): Version 2.2.1
@@ -23,17 +25,22 @@ Replace `[python]` with the full path to your Python 3.12 interpreter and `[main
 
 Restart Espanso or reload its configs to ensure that the new match is loaded
 
-**Check the installation:** type `:esptools` in any text field. If everything is set up correctly, it should be replaced with `Hello, EspTools!`
+**Check the installation:** Type `:esptools` in any text field. If everything is set up correctly, it should be replaced with `Hello, EspTools!`
 
 ## Usage
 
-Type `=` followed by an expression and a `;` at the end
+### Syntax
 
-The expression will be evaluated and replaced with the result
+Place your cursor in any text field and type `=` followed by an expression and a `;` at the end
 
-For example: `=sqrt(37);` -> `6.082762530298219`
+The expression will be evaluated and replaced with the result, for example: `=1+sqrt(37);` -> `7.082762530298219`
 
-**Note:** Espanso matches [patterns](https://espanso.org/docs/matches/regex-triggers/) of up to 30 characters long — make sure your expressions stay within this length
+### Suppotred Functionality
+
+* Standard arithmetic operations: `+`, `-`, `*`, `**`, `/`, `//` and `%`
+* Functions and constants from the [math](https://docs.python.org/3/library/math.html) library
+
+**Note:** Espanso matches [patterns](https://espanso.org/docs/matches/regex-triggers/) of up to 30 characters long, make sure your expressions stay within this length
 
 ## License
 
