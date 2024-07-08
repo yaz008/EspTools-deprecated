@@ -22,7 +22,7 @@ matches:
               - "{{main}}"
               - "greet"
 
-  - regex: "=(?P<expr>.*);"
+  - regex: "=(?P<expr>[a-z\\d\\s\\(\\)-+*/%\\.]+);"
     replace: "{{result}}"
     force_mode: keys
     vars:
