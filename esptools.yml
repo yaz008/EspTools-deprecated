@@ -12,7 +12,7 @@ global_vars:
 matches:
   - trigger: :esptools
     replace: "{{result}}"
-    force_mode: clipboard
+    force_mode: keys
     vars:
       - name: result
         type: script
@@ -24,7 +24,7 @@ matches:
 
   - regex: "=(?P<expr>.*);"
     replace: "{{result}}"
-    force_mode: clipboard
+    force_mode: keys
     vars:
       - name: result
         type: script
