@@ -23,8 +23,6 @@ Navigate to the Espanso `match` directory and copy the `esptools.yml` file there
 
 Replace `[python]` with the full path to your Python 3.12 interpreter and `[main]` with the full path to the `src\main.py` file within the cloned esptools directory
 
-Restart Espanso or reload its configs to ensure that the new match is loaded
-
 **Check the installation:** Type `:esptools` in any text field. If everything is set up correctly, it should be replaced with `Hello, EspTools!`
 
 ## Usage
