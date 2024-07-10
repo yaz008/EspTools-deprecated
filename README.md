@@ -29,18 +29,11 @@ Restart Espanso or reload its configs to ensure that the new match is loaded
 
 ## Usage
 
-### Syntax
+Place your cursor in any text field and type a command, it will be executed and replaced with the result
 
-Place your cursor in any text field and type `=` followed by an expression and a `;` at the end
+**For, example:** `=2 ** 31 - 1;` -> `2147483647`
 
-The expression will be evaluated and replaced with the result, for example: `=1+sqrt(37);` -> `7.082762530298219`
-
-### Suppotred Functionality
-
-* Standard arithmetic operations: `+`, `-`, `*`, `**`, `/`, `//` and `%`
-* Functions and constants from the [math](https://docs.python.org/3/library/math.html) library
-
-**Note:** Espanso matches [patterns](https://espanso.org/docs/matches/regex-triggers/) of up to 30 characters long, make sure your expressions stay within this length
+Read the [Documentation](docs/DOC.md) to learn more
 
 ## License
 
