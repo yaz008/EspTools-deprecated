@@ -34,7 +34,7 @@ matches:
               - "{{main}}"
               - "evaluate"
 
-  - regex: "lorem(?P<len>\\d+) "
+  - regex: "lorem(?P<expr>[\\d\\./]*) "
     replace: "{{result}}"
     force_mode: clipboard
     vars:

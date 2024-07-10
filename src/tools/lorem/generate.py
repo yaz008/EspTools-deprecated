@@ -1,5 +1,6 @@
 from os import getenv
 from random import choices
+from re import findall
 from core.filemanip import load, Format
 from core.path import Path
 
@@ -13,5 +14,18 @@ def generate(length: int) -> str:
             return f'Lorem ipsum {text}'
 
 def main() -> str:
-    length: int = int(getenv(key='ESPANSO_LEN'))
-    return generate(length)
+    expr: str = getenv(key='ESPANSO_EXPR')
+    if expr == '':
+        return generate(length=10)
+
+    result: str = ''
+
+    pattern: str = r'(?:[\\./]|[0-9]+)'
+    for token in findall(pattern=pattern, string=expr):
+        match token:
+            case '.': result += '. '
+            case '/': result += '\n'
+            case number:
+                result += generate(length=int(number))
+
+    return result
