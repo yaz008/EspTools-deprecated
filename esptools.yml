@@ -33,3 +33,15 @@ matches:
               - "{{python}}"
               - "{{main}}"
               - "evaluate"
+
+  - regex: "lorem(?P<len>\\d+) "
+    replace: "{{result}}"
+    force_mode: clipboard
+    vars:
+      - name: result
+        type: script
+        params:
+          args:
+            - "{{python}}"
+            - "{{main}}"
+            - "lorem"
