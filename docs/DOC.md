@@ -1,6 +1,6 @@
 # Documentation
 
-Documentation for EspTools `v0.2.0-alpha`
+Documentation for EspTools `v0.2.1-alpha`
 
 ## General
 
