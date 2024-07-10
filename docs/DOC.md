@@ -6,7 +6,10 @@ Documentation for EspTools `v0.2.0-alpha`
 
 * [Evaluate](#evaluate)
   * [Syntax](#syntax)
-  * [Functionality](#functionality)
+  * [Reference](#reference)
+
+* [Evaluate](#evaluate)
+  * [Syntax](#syntax-1)
 
 ## Evaluate
 
@@ -21,7 +24,7 @@ To call `Evaluate`, type `=`, followed by the target expression and a `;` at the
 -  `=2 ** 64;` -> `18446744073709551616`
 - `=sqrt(1 + sin(pi/2));` -> `1.4142135623730951`
 
-### Functionality
+### Reference
 
 **Operations:**
 - `+`: plus
@@ -96,3 +99,26 @@ To call `Evaluate`, type `=`, followed by the target expression and a `;` at the
 - **tau:** 2π (`6.283185307179586`)
 - **inf:** infinity
 - **nan:** not-a-number
+
+## Lorem
+
+This tool generates placeholder Latin-like pseudotext
+
+### Syntax
+
+To call `Lorem`, type `lorem`, followed by an optional structure description and a `space` at the end
+
+A number after `lorem` or berween `.` or `/` denotes a number of words in a sentense. A `.` is a sentense separator and a `/` is a paragraph separator
+
+To specify the number of sentences or paragraphs, add `s` or `p` to the end of your command, respectively. The `s` and `p` modifiers are not allowed within expressions conraining `.` or `/`
+
+**Examples:**
+- `lorem` -> `Lorem ipsum aliquam dolor consectetur quia incidunt amet sed modi`
+- `lorem5` -> `Lorem ipsum neque lorem consectetur`
+- `lorem5.6` -> `Lorem ipsum tempora adipisci est. Lorem ipsum et ipsum sit lorem`
+- `lorem4./8.` -> `Lorem ipsum tempora sit. \nLorem ipsum et sed quisquam ipsum qui incidunt.`
+- `lorem1//2` -> `Lorem\n\nLorem ipsum`
+- `lorem2s` -> `Lorem ipsum lorem lorem voluptatem adipisci. Lorem ipsum incidunt eius qui numquam`
+- `lorem2p` -> `Lorem ipsum quaerat modi labore non sit. Lorem ipsum modi amet consectetur labore neque incidunt eius. Lorem ipsum quaerat porro incidunt quisquam qui dolorem dolore quia sit. Lorem ipsum voluptatem neque modi est\nLorem ipsum adipisci voluptatem lorem labore amet amet. Lorem ipsum dolor neque aliquam lorem adipisci. Lorem ipsum porro magnam amet non lorem est modi et tempora magnam labore`
+
+**Note:** The `\n` symbol here denotes a `newline` character
