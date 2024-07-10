@@ -4,7 +4,7 @@
 
 EspTools is an extenive toolset for [Espanso](https://espanso.org/)
 
-**Version:** `0.1.0-alpha`
+**Version:** `0.2.0-alpha`
 
 ## Prerequisites
 
@@ -16,7 +16,7 @@ EspTools is an extenive toolset for [Espanso](https://espanso.org/)
 Close the repository
 
 ```sh
-git clone --branch v0.1.0-alpha https://github.com/yaz008/esptools
+git clone --branch v0.2.0-alpha https://github.com/yaz008/esptools
 ```
 
 Navigate to the Espanso `match` directory and copy the `esptools.yml` file there
