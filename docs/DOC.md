@@ -1,4 +1,4 @@
-# Documantation
+# Documentation
 
 Documentation for EspTools `v0.2.0-alpha`
 
@@ -92,8 +92,8 @@ To call `Evaluate`, type `=`, followed by the target expression and a `;` at the
 - **pi:** π (`3.141592653589793`)
 - **e:** Euler's number (`2.718281828459045`)
 - **tau:** 2π (`6.283185307179586`)
-- **inf:** infinity
-- **nan:** not-a-number
+- **inf:** Infinity
+- **nan:** Not a Number
 
 ## Lorem
 
