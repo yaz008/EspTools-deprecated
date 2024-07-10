@@ -2,15 +2,6 @@
 
 Documentation for EspTools `v0.2.0-alpha`
 
-## Table Of Contents
-
-* [Evaluate](#evaluate)
-  * [Syntax](#syntax)
-  * [Reference](#reference)
-
-* [Evaluate](#evaluate)
-  * [Syntax](#syntax-1)
-
 ## General
 
 It is important to know that in the current version (2.2.1), Espanso matches [patterns](https://espanso.org/docs/matches/regex-triggers/) of up to 30 characters long: make sure your expressions stay within this length
